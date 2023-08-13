@@ -8,7 +8,7 @@ import java.util.TimerTask;
 public class Clock {
     public static void main(String[] args) {
         Timer timer = new Timer();
-
+        //Lambda expression
         TimerTask updateTimeTask = new TimerTask() {
             @Override
             public void run() {
