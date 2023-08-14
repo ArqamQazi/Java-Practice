@@ -22,6 +22,7 @@ public class AnonymousClass {
         // Lambda Expressions :
         LambdaExp obj = (a, b) -> {
             System.out.println("The value of a and b is : "+ a + "," + b);
+            System.out.println("This is using Lambda Expression");
         };
 
         obj.meth1(5, 10);
