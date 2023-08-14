@@ -37,6 +37,12 @@ public class FileHandling {
         } catch(FileNotFoundException e) {
             e.printStackTrace();
         }
+        //Deleting file
+        if (myFile.delete()) {
+            System.out.println("Deleted " + myFile.getName() + " Successfully");
+        } else {
+            System.out.println("Some error occurs while deleting file");
+        }
 
     }
 }
